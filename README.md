@@ -1,9 +1,9 @@
 <h1>Network Services Configuration</h1>
 
 <h2>Description</h2>
-Welcome to the first installment of an ongoing series where we explore administrative tasks on Windows Server with a focus on Active Directory. This project lays the foundation for a series of network configurations and administrative simulations.
+Welcome to the second installment of an ongoing series where we explore administrative tasks on Windows Server with a focus on Active Directory. This project goes over the necessary network configurations required for our devices to communicate with each other as well as having internet connectivity.
 <br><br>
-This project will focus on the installation and configuration of Active Directory on DC1.
+This project will focus on the DHCP, DNS, and NAT/RAS.
 Below is a reference to the topology of the network we are working on.
 <br />
 
