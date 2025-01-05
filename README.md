@@ -26,7 +26,8 @@ Topology: <br/>
 <h2>Project walk-through:</h2>
 
 <h3>Follow the steps below to configure network services on DC1 and CL1:</h3>
-<p>Install NAT/RAS</p>
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
 <b>
 <p>Go to “Add Roles and Features” and choose your server to install Remote Access.</p>
 <img src="https://imgur.com/P8Qk40G.png" height="50%" width="50%" alt="install AD DS"/>
