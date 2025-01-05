@@ -14,86 +14,28 @@ Topology: <br/>
 
 <h2>Key Configurations</h2>
 
-- <b>Active Directory Domain Services (AD DS): Configure AD DS to manage all users, groups, and computers within the network domain, providing a single point of administration.<b>
+- <b>Dynamic Host Configuration Protocol (DHCP): Set up DHCP to automatically assign IP addresses to all connected clients, enhancing network efficiency.<b>
+- <b>Domain Name System (DNS): Implement DNS to resolve hostnames to IP addresses, critical for network communication between diverse operating systems.<b>
+- <b>Network Address Translation (NAT)/Remote Access Service (RAS): Configure NAT/RAS to enable secure internet access and remote connections, bridging the gap between internal networks and external resources.<b>
 
 <h2>Environments Used </h2>
 
 - <b>Windows Server 2019</b>
+- <b>Windows 10 (21H2)</b>
 
 <h2>Project walk-through:</h2>
 
-<h3>Follow the steps below to configure install and configure AD DS:</h3>
-<p>Click Add Roles and Features.</p>
+<h3>Follow the steps below to configure network services on DC1 and CL1:</h3>
+<p></p>
 <b>
-<img src="https://imgur.com/Ombvtoh.png" height="50%" width="50%" alt="install AD DS"/>
+<img src=".png" height="50%" width="50%" alt="install AD DS"/>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
-<p>Observe the beofre you begin page, click "Next".</p>
-<img src="https://imgur.com/D9bqZEn.png" height="50%" width="50%" alt="install AD DS"/>
+<p></p>
+<img src=".png" height="50%" width="50%" alt="install AD DS"/>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
-<p>Ensure this is a role based installation click "Next".</p>
-<img src="https://imgur.com/X7FQzyn.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>Choose the server to install AD DS.</p>
-<img src="https://imgur.com/9fv1GCi.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>Choose Active Directory Domain Services.</p>
-<img src="https://imgur.com/G8gx9r4.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>The necessary features will be prompted to install, choose "Add Features".</p>
-<img src="https://imgur.com/PqvcqvF.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>Click "Next".</p>
-<img src="https://imgur.com/FT5QOtk.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>Click "Next".</p>
-<img src="https://imgur.com/6NEGG6N.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>Click "Install".</p>
-<img src="https://imgur.com/qigupMD.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>Close the wizard when the installation process is complete.</p>
-<img src="https://imgur.com/IJ6vrb0.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>Navigate to the flag and click “Promote this server to a domain controller.”</p>
-<img src="https://imgur.com/sNWGUKq.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>We create a new forest and name our root domain “techcorp.com”.</p>
-<img src="https://imgur.com/AK55WpR.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>Ensure we have DNS and Global Catalog capabilities. After this step, you can go through the next steps clicking "Next" with the default configurations.</p>
-<img src="https://imgur.com/91XCmfW.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>When we have completed the configuration, we will be notified of a restart. 
-After restarting you will have to log into our server.
-</p>
-<img src="https://imgur.com/GkAmsYR.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>After logging in, we create a new Organizational Unit in our domain named “Admins”. This is where we create an account for ourselves that we can use to log into machines on our network.</p>
-<img src="https://imgur.com/3XtDEWd.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>Navigate to our accounts properties and add the account to “Domain Admins” to gain privileged access. </p>
-<img src="https://imgur.com/PKuLcMD.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p>Now we can sign into the server using our admin account with our information.</p>
-<img src="https://imgur.com/EyaI9ZB.png" height="50%" width="50%" alt="install AD DS"/>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
+
 </b>
 <h2> Final Thoughts </h2>
 
