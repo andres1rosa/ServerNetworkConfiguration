@@ -32,7 +32,7 @@ Topology: <br/>
 <img src="https://imgur.com/P8Qk40G.png" height="50%" width="50%" alt="install AD DS"/>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
-<p></p>
+<p>Select Remote Access. Remote Access allows us to configure NAT.</p>
 <img src="https://imgur.com/jf7cCL3.png" height="50%" width="50%" alt="install AD DS"/>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
