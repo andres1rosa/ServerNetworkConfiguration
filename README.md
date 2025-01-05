@@ -121,15 +121,15 @@ Our IPV4 should now be green in our DHCP.
 <p><strong>.</strong></p>
 <p>Log into CL1 and change the name and add the client to the domain.
 </p>
-<img src=".png" height="50%" width="50%" alt="install AD DS"/>
+<img src="https://imgur.com/j3Md55E.png" height="50%" width="50%" alt="install AD DS"/>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 <p>Input your admin credentials.</p>
-<img src=".png" height="50%" width="50%" alt="install AD DS"/>
+<img src="https://imgur.com/9kVcXSd.png" height="50%" width="50%" alt="install AD DS"/>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 <p>See the success.</p>
-<img src=".png" height="50%" width="50%" alt="install AD DS"/>
+<img src="https://imgur.com/keGTNNF.png" height="50%" width="50%" alt="install AD DS"/>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 <p>Utilizing CMD, verify the hostname changed. Use ‘ipconfig’ to verify the client now has an IP address in the IPV4 range we previously configured. In this case, we were automatically assigned ‘172.16.0.101’. This is the first IP address in the range we configured.
@@ -137,11 +137,11 @@ Our IPV4 should now be green in our DHCP.
 <p>
 Utilizing ping, we ping google.com and verify we have internet connectivity.
 </p>
-<img src=".png" height="50%" width="50%" alt="install AD DS"/>
+<img src="https://imgur.com/mFqR9PP.png" height="50%" width="50%" alt="install AD DS"/>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 <p>We sign out and verify we can sign into the computer utilizing our admin credentials.</p>
-<img src=".png" height="50%" width="50%" alt="install AD DS"/>
+<img src="https://imgur.com/bweXxEX.png" height="50%" width="50%" alt="install AD DS"/>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
