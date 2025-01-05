@@ -40,7 +40,7 @@ Topology: <br/>
 <h2> Final Thoughts </h2>
 
 <p>
-We've successfully configured Active Directory on our domain controller. We established our infrastructure by creating a forest and administrator account. In the upcoming project, we'll be configuring the network services on our domain controller to allow our devices to conect to the internet.</p>
+We've successfully configured Network Services on DC1. This allowed for CL1 to be added to the domain and connect to the internet utilizing NAT/RAS through DC1.</p>
 
 
 
