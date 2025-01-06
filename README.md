@@ -132,7 +132,7 @@ Our IPV4 should now be green in our DHCP.
 <img src="https://imgur.com/keGTNNF.png" height="50%" width="50%" alt="install AD DS"/>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
-<p>Utilizing CMD, verify the hostname is now CL1. Use ‘ipconfig’ to verify the client now has an IP address in the IPV4 range we previously configured. In this case, we were automatically assigned ‘172.16.0.101’. This is the first IP address in the range we configured.
+<p>Utilizing CMD, verify the hostname is now CL1. Use ‘ipconfig’ to verify the client now has an IP address in the IPV4 range we previously configured. In this case, we are automatically assigned ‘172.16.0.101’. This is the first IP address in the range we configured.
 </p>
 <p>
 Utilizing ping, we ping google.com and verify we have internet connectivity.
